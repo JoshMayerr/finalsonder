@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <div className="flex min-h-screen max-w-7xl mx-auto px-6 sm:px-10 items-end -mt-32 sm:-mt-56">
           <div className="font-serif text-5xl sm:text-6xl w-3/4 sm:w-1/2 leading-tight">
-            <h1>The world’s first NFT verified clothing brand. </h1>
+            <h1>The worlds first NFT verified clothing brand. </h1>
             {/* <a className="text-lg leading-1 font-sans">Shop Now</a> */}
 
             {/* clothing section */}
@@ -28,22 +28,22 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
             <div className="flex flex-col items-center">
               <div className="bg-slate-50 h-full w-72"></div>
-              <h3 className="pt-6">Sonder "Worked Up" Hoodie</h3>
+              <h3 className="pt-6">Sonder Hoodie</h3>
               <p>$110.00</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="bg-slate-50 h-96 w-72"></div>
-              <h3 className="pt-6">Sonder "Worked Up" Hoodie</h3>
+              <h3 className="pt-6">Sonder Hoodie</h3>
               <p>$110.00</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="bg-slate-50 h-96 w-72"></div>
-              <h3 className="pt-6">Sonder "Worked Up" Hoodie</h3>
+              <h3 className="pt-6">Sonder Hoodie</h3>
               <p>$110.00</p>
             </div>
             <div className="flex flex-col items-center">
               <div className="bg-slate-50 h-96 w-72"></div>
-              <h3 className="pt-6">Sonder "Worked Up" Hoodie</h3>
+              <h3 className="pt-6">Sonder Hoodie</h3>
               <p>$110.00</p>
             </div>
           </div>
