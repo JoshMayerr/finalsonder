@@ -64,6 +64,21 @@ export default function Home() {
             />
           </div>
         </div>
+        {/* info section */}
+        <div className="text-center mt-44 mb-32">
+          <h1 className="font-serif text-5xl font-bold">
+            IRL clothing, Ethereum Blockchain verified.
+          </h1>
+          <p className="w-1/2 mx-auto text-gray-500 font-mono mt-8 mb-4">
+            Every piece of the Sonder Florist Co. collection is mapped to
+            it&#39;s own NFT hosted on the Ethereum Blockchain. With every
+            order, you&#39;ll recieve your clothing in the mail, and the NFT
+            will be automatically dropped into your wallet.
+          </p>
+          <a href="/about" className="font-mono text-sm">
+            Read More
+          </a>
+        </div>
       </main>
     </div>
   );
