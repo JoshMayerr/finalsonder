@@ -26,11 +26,13 @@ export default function Example() {
                     />
                   </div>
                   <Link href="/">
-                    <img
-                      className="hidden lg:block h-36 w-auto"
-                      src="fulltypelogo.svg"
-                      alt="Workflow"
-                    />
+                    <a>
+                      <img
+                        className="hidden lg:block h-36 w-auto"
+                        src="fulltypelogo.svg"
+                        alt="Workflow"
+                      />
+                    </a>
                   </Link>
                 </div>
               </div>
