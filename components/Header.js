@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -24,13 +25,13 @@ export default function Example() {
                       alt="Workflow"
                     />
                   </div>
-                  <div>
+                  <Link href="/">
                     <img
                       className="hidden lg:block h-36 w-auto"
                       src="fulltypelogo.svg"
                       alt="Workflow"
                     />
-                  </div>
+                  </Link>
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
