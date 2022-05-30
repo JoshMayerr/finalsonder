@@ -1,9 +1,10 @@
-/* This example requires Tailwind CSS v2.0+ */
+import Link from "next/link";
+
 const navigation = {
   main: [
-    { name: "Shop", href: "#" },
-    { name: "About", href: "#" },
-    { name: "Code", href: "#" },
+    { name: "Shop", href: "#shop" },
+    { name: "About", href: "/about" },
+    { name: "Code", href: "https://github.com/joshmayerr/finalsonder" },
   ],
   social: [
     {
@@ -54,9 +55,9 @@ export default function Footer() {
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2">
-              <a href={item.href} className="text-base  hover:text-gray-800">
-                {item.name}
-              </a>
+              <Link href={item.href}>
+                <a className="text-base  hover:text-gray-800">{item.name}</a>
+              </Link>
             </div>
           ))}
         </nav>

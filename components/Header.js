@@ -38,12 +38,12 @@ export default function Example() {
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
                 <div className="space-x-10 pr-8">
-                  <a href="#shop" className="">
-                    Shop
-                  </a>
-                  <a href="#" className="">
-                    About
-                  </a>
+                  <Link href="#shop">
+                    <a className="">Shop</a>
+                  </Link>
+                  <Link href="/about">
+                    <a className="">About</a>
+                  </Link>
                 </div>
 
                 {/* Profile dropdown */}
