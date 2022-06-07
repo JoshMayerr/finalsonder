@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="flex flex-col font-mono items-center justify-center -mt-28 max-w-2xl mx-auto">
+      <div className="flex flex-col font-mono items-center justify-center max-w-2xl mx-auto">
         <h1 className="text-5xl font-extrabold">The Sonder Story.</h1>
         <p className="pt-8 text-center">
           Coming into this term, I had a few things I knew I wanted to research
