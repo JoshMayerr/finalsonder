@@ -75,9 +75,9 @@ export default function Home() {
             order, you&#39;ll recieve your clothing in the mail, and the NFT
             will be automatically dropped into your wallet.
           </p>
-          <a href="/about" className="font-mono text-sm">
-            Read More
-          </a>
+          <Link href="/about">
+            <a className="font-mono text-sm">Read More</a>
+          </Link>
         </div>
       </main>
     </div>
